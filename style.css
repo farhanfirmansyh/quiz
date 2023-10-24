@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+.level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: lightskyblue;
+  padding: 12px;
+}
+.level img {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #222;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.pertanyaan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pertanyaan p {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 80px 0 10px;
+  margin: 28px;
+}
+.jawaban {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jawaban input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.jawaban button {
+  padding: 12px;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: lightskyblue;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 280px) {
+  .pertanyaan p {
+    font-size: 20px;
+    padding: 80px 0 10px;
+  }
+}
+@media screen and (min-width: 281px) and (max-width: 768px) {
+  .pertanyaan p {
+    font-size: 20px;
+    padding: 80px 0 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  .pertanyaan p {
+    font-size: 22px;
+    padding: 40px 0 10px;
+  }
+  .level {
+    padding: 8px;
+  }
+}

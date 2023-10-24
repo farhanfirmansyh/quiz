@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="Website Icon" type="png" href="gambar/logo design.png">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="level">
+      <h2>Level <span id="level"></span></h2>
+      <img id="img" src="gambar/logo design.png" alt="error" />
+    </div>
+    <div class="pertanyaan">
+      <p id="pertanyaan"></p>
+    </div>
+    <div class="jawaban">
+      <input type="text" placeholder="Jawaban" required id="jawaban">
+      <button id="submit">Periksa</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
